@@ -1,4 +1,23 @@
-body{
-    background-color: #e6d6bc;
+@font-face {
+    font-family: 'octobre';
+    src: url(fonts/Octobre-Regular.otf);
 }
 
+#naslov{
+    font-family: 'octobre', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e8d8be;
+}
+
+#otto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 35%;
+}
