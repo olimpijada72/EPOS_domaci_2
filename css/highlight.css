@@ -1,0 +1,18 @@
+/* Podvuce kad je mis iznad */
+
+#artworks:hover{
+    text-decoration: underline;
+}
+
+#biography:hover{
+    text-decoration: underline;
+}
+
+#contact:hover{
+    text-decoration: underline;
+}
+
+/* Za ovo jos nisam siguran da li treba da se ubaci, ali nek za sad stoji tu */
+/* #naslov:hover{
+    text-decoration: underline;
+} */

@@ -1,23 +1,41 @@
-@font-face {
-    font-family: 'octobre';
-    src: url(fonts/Octobre-Regular.otf);
-}
-
-#naslov{
-    font-family: 'octobre', sans-serif;
-}
-
 body{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: #e8d8be;
+
+    /* Treba da se izabere jedna od ove tri opcije */
+     /* justify-content: space-evenly; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: #eadac0;
+}   
+
+.navbar{
+    line-height: 1.3;
+    font-size: 28pt;
+    font-family: neue_montreal;
+    align-self: flex-end;
+    margin-bottom: 5%;
+
 }
 
 #otto{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    width: 35%;
+    padding-left: 4%;
+    margin-top: 4%;
+    width: 38%;
+    
+}
+
+#naslov{
+    font-size: 75pt;
+    font-family: octobre_demi;
+    align-self: flex-start;
+    margin-top: 5%;
+}
+
+
+/* Da linkovi ne budu plavi */
+a{
+    text-decoration: none;
+    color: inherit;
 }
