@@ -3,8 +3,8 @@ body{
     flex-direction: row;
 
     /* Treba da se izabere jedna od ove tri opcije */
-     /* justify-content: space-evenly; */
-    justify-content: center;
+     justify-content: space-evenly;
+    /* justify-content: center; */
     /* justify-content: space-around; */
     align-items: center;
     background-color: #eadac0;
