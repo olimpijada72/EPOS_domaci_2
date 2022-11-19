@@ -5,34 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacts</title>
+    <link rel="stylesheet" href="css/style_contact.css" />
 </head>
 <body>
     
-    <div>
-        <h2>contact us</h2>
-        
-        <p>Lorem ipsum dolor sit amet consectetur
-             adipisicing elit. Quis at magni dolor qui. 
-             Repudiandae accusantium dignissimos quam qui soluta
-              quasi veniam, repellendus obcaecati molestiae deleniti 
-                et voluptates! Repellendus, consequuntur vero!</p>
+    <div id="flex-roditelj">
+           
+        <a href="#biography">biography</a>
+        <a href="#selecteda">selected artworks</a>
+        <div id="otto"><a href="#otto">Otto Dix</a></div>   
     </div>
-
-    <form >
-        <label for="customer">
-        ime i prezime: </label>
-        <input id="customer" type="text" name="customer" size="40" maxlength="35">
-        <br>
-        <label for="email">
-        mail: </label>
-        <input type="email" id="email" name="email"><br><br>
-        comment:
-        <br>
-        <textarea name="comment" id="comment" cols="30" rows="10">comment
-        </textarea>
-        <br>
-        <button type="submit">
+    
+    <div class="center">
+        <div class="contactus">
+            <h1>contact us</h1>
+            </div>
+    <form action="">
+       
+        <div class="txt_field">
+        <input id="customer" type="text" name="customer" size="25" placeholder="name" maxlength="35">
+        </div>
+        <div class="txt_field">
+        <input type="email" id="email" name="email" placeholder="email" size="25">
+        </div>
+        <div class="txt_field">
+        <textarea name="comment" id="comment" cols="30" placeholder="comment" rows="10"></textarea>
+        </div>
+        <button type="submit" id="button">
         submit</button>
+    
     </form>
+    </div>
+    <script>
+
+    var customer = document.getElementById("customer");
+    var email = document.getElementById("email");
+    var comment = document.getElementById("comment");
+    var dugme = document.getElementById("button");
+    dugme.addEventListener("click", function(e) {
+    e.preventDefault();
+    alert("customer: " + customer.value + "\n" + "email: " + email.value + "\n" + "message: " + comment.value);
+})
+        </script>
 </body>
 </html>
+
