@@ -1,33 +1,9 @@
- /* SELEKTOR {
-    naziv-svojstvo: vrednost;
-    naziv-svojstva2: vrednost2;
-} */
 
-/* 
-
-ID selektor: # 
-
-*/
-/* 
-
-CLASS selektor: . 
-
-*/
-@font-face {
-    font-family: Octobre;
-    src: url(https://befonts.com/downfile/5fde801ec66abe784d674890a42c82e6.233846);
-}
-@font-face {
-    font-family: Sublima;
-    src: url(https://dl.dafont.com/dl/?f=sublima);
-}
-body{
-    margin: 0;
-}
-a{
+/* a{
     color: #000;
     text-decoration: none !important;
-}
+} */
+
 #grid-wrapper{
     width: 90%;
     margin: auto auto;
@@ -43,7 +19,7 @@ a{
 }
 #selected-artworks:hover{
     transition: .7s;
-    color: #01ff01;
+    color: #01ff91;
 }
 #headline{
     font-size:70px;
