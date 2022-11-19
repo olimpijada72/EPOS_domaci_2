@@ -1,0 +1,42 @@
+body {
+  background-color: #eadac0;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 25%;
+  line-height: 1.3;
+  font-size: 28pt;
+  font-family: neue_montreal;
+  padding-left: 5%;
+  margin-bottom: 5%;
+}
+
+.bio {
+  float: left;
+  font-family: neue_montreal;
+  font-size: 15pt;
+  padding-left: 30%;
+  padding-right: 5%;
+  margin-top: 5%;
+  width: 38%;
+}
+
+#naslov {
+  position: fixed;
+  top: 0;
+  float: right;
+  width: 25%;
+  font-size: 75pt;
+  font-family: octobre_demi;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+/* Da linkovi ne budu plavi */
+a {
+  text-decoration: none;
+  color: inherit;
+}
