@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: row;
+
+  /* Treba da se izabere jedna od ove tri opcije */
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color: #eadac0;
+}
+
+.navbar {
+  line-height: 1.3;
+  font-size: 28pt;
+  font-family: neue_montreal;
+  align-self: flex-end;
+  margin-bottom: 5%;
+}
+
+.bio {
+  font-family: neue_montreal;
+  font-size: 15pt;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20%;
+  width: 38%;
+}
+
+#naslov {
+  font-size: 75pt;
+  font-family: octobre_demi;
+  align-self: flex-start;
+  margin-top: 5%;
+}
+
+/* Da linkovi ne budu plavi */
+a {
+  text-decoration: none;
+  color: inherit;
+}
