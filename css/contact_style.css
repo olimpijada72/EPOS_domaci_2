@@ -9,11 +9,13 @@
   transform: translate(-50%, -50%);
   background-color: rgb(247, 247, 252);
   border-radius: 10px;
+  /* margin-top: 20%;  */
+  /* margin-bottom: 20%; */
 }
 
 h1 {
   text-align: center;
-  font-size: 30pt;
+  font-size: 2vw;
   padding-bottom: 2%;
   border-bottom: 1px solid silver;
 }
@@ -23,31 +25,37 @@ h1 {
   box-sizing: border-box;
 }
 
+
 form .txt_field {
-  font-size: 10pt;
+  font-size: 1vw;
   position: relative;
-  border-bottom: 2px solid silver;
+  border-bottom:0.15vw solid silver;
   margin-bottom: 2%;
 }
 
 .txt_field input {
-
+  font-size: 1vw;
   width: 100%;
   padding: 0;
-  height: 25px;
+  /* height: 25px; */
+  height: 1vw;
   border: none;
   background-color: none;
   outline: none;
 }
 
 form button {
-  margin-top: 1%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1vw;
+  margin-top: 0.5%;
   margin-bottom: 4%;
   width: 100%;
-  height: 30pt;
+  height: 2vw;
 }
 
 form #message {
+  font-size: 1vw;
   resize: none;
   width: 98%;
   border: none;

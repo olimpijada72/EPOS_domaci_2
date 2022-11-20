@@ -11,7 +11,7 @@ body {
   margin-bottom: 5%;
 
   line-height: 1.3;
-  font-size: 28pt;
+  font-size: 2vw;
   font-family: neue_montreal;
 }
 
@@ -23,7 +23,8 @@ body {
   right: 0;
   float: right;
   width: 25%;
-  font-size: 75pt;
+  /* font-size: 75pt; */
+  font-size: 5.5vw;
   font-family: octobre_demi;
   margin-right: 5%;
   margin-top: 5%;
