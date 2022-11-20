@@ -7,3 +7,13 @@
   margin-top: 5%;
   width: 38%;
 }
+
+@media  (max-width: 480px){
+  #otto {
+    order:2;
+    margin-top: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+  }
+}

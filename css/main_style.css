@@ -23,7 +23,6 @@ body {
   right: 0;
   float: right;
   width: 25%;
-  /* font-size: 75pt; */
   font-size: 5.5vw;
   font-family: octobre_demi;
   margin-right: 5%;
@@ -36,4 +35,23 @@ a {
   color: inherit;
 }
 
+@media  (max-width: 480px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 
+  }
+
+  #naslov {
+    text-align: center;
+    width: 90%;
+    order:1;
+    font-size: 16vw;
+    margin-top: 10%;
+  }
+
+  
+}
