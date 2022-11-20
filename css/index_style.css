@@ -8,10 +8,10 @@
   width: 38%;
 }
 
-@media  (max-width: 480px){
+@media screen and (max-width: 480px){
   #otto {
     order:2;
-    margin-top: 30%;
+    margin-top: 50%;
     padding-left: 5%;
     padding-right: 5%;
     width: 80%;
