@@ -4,7 +4,7 @@ var customer = document.getElementById("customer");
       var dugme = document.getElementById("button");
       dugme.addEventListener("click", function (e) {
         e.preventDefault();
-        alert(
+        confirm(
           "customer: " +
             customer.value +
             "\n" +
