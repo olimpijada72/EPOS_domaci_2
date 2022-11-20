@@ -55,6 +55,12 @@ img {
         margin-left: 0%;
         padding-left: 2%;
     }
+
+    #image-grid img:hover{
+        transition: 0s;
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
     
 }
 
