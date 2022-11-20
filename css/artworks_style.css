@@ -37,21 +37,43 @@ img {
 
 
 
+@media screen and (max-width: 480px){
+    #image-grid{
+        width: 50%;
+        margin:0;
+        margin-left: 22%;
+        margin-top: 30%;
+        margin-bottom: 50%;
+    }
+
+    img {
+        width: 120%;
+        object-fit: cover;
+    }
+
+    .navbar {
+        margin-left: 0%;
+        padding-left: 2%;
+    }
+    
+}
+
+
 /* Responzivnost */
 /* sve ispod 1024 piksela */
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
     #image-grid{
         --num-cols:1;
         --row-height: 200px;
     }
     
-}
+} */
 /* sve ispod 564 piksela */
-@media screen and (max-width:564px) {
+/* @media screen and (max-width:564px) {
     #image-grid{
         --num-cols:1;
         --row-height: 150px;
     }
     
-} 
+}  */
   
