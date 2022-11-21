@@ -4,31 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contacts</title>
-    <link rel="stylesheet" href="css/style_contact.css" />
+    <link rel="stylesheet" href="css/main_style.css" />
+    <link rel="stylesheet" href="css/contact_style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/highlight.css" />
+
+    <title>Contact | Otto Dix</title>
   </head>
 
   <body>
-    <!-- Sedlarevicev navbar -->
-    <div id="flex-roditelj">
-      <a href="#biography">biography</a>
-      <a href="#selecteda">selected artworks</a>
-      <div id="otto"><a href="#otto">Otto Dix</a></div>
+    <!-- Navbar sa leve strane-->
+    <div class="navbar">
+      <a id="artworks" href="artworks.html">selected artworks/</a> <br />
+      <a id="biography" href="biography.html">biography/</a> <br />
+      <a id="contact" href="contact.html">contact</a>
     </div>
 
-
-    <!-- Navbar sa home stranice  -Miron-->
-    <div class="navbar">
-        <a id="artworks" href="artworks.html">selected artworks/</a> <br />
-        <a id="biography" href="biography.html">biography/</a> <br />
-        <a id="contact" href="contact.html">contact</a>
-      </div>
-
+    <!-- Forma za poruku, sredina -->
     <div class="center">
-      <div class="contactus">
-        <h1>contact us</h1>
-      </div>
-      <form action="">
+      <h1>contact us</h1>
+      <form>
+        <!-- Polje za ime -->
         <div class="txt_field">
           <input
             id="customer"
@@ -39,6 +35,8 @@
             maxlength="35"
           />
         </div>
+
+        <!-- Polje za email -->
         <div class="txt_field">
           <input
             type="email"
@@ -48,38 +46,26 @@
             size="25"
           />
         </div>
+
+        <!-- Polje za samu poruku -->
         <div class="txt_field">
           <textarea
             name="comment"
-            id="comment"
+            id="message"
             cols="30"
-            placeholder="comment"
+            placeholder="message"
             rows="10"
           ></textarea>
         </div>
+
         <button type="submit" id="button">submit</button>
       </form>
     </div>
-    <script>
-      var customer = document.getElementById("customer");
-      var email = document.getElementById("email");
-      var comment = document.getElementById("comment");
-      var dugme = document.getElementById("button");
-      dugme.addEventListener("click", function (e) {
-        e.preventDefault();
-        alert(
-          "customer: " +
-            customer.value +
-            "\n" +
-            "email: " +
-            email.value +
-            "\n" +
-            "message: " +
-            comment.value
-        );
-      });
-    </script>
 
-    
+    <!-- Naslov sa desne strane -->
+    <a id="naslov" href="index.html">OTTO DIX</a>
+
+    <!-- Skripta koja daje funkcionalnost -->
+    <script src="scripts/contact_script.js"></script>
   </body>
 </html>
