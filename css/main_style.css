@@ -1,3 +1,15 @@
+
+/* U nekom trenutku dodaj ovo i shodno tome nasteluj bordere i slicno */
+/* html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+} */
+
+
+
 body {
   background-color: #eadac0;
 }
